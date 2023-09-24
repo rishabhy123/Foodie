@@ -1,0 +1,41 @@
+.service{
+  flex-direction: column;
+}
+.content h1{
+    font-size: 1.3 rem;
+}
+.content p{
+    margin: auto;
+    text-align: center;
+    font-size: 1.2rem;
+}
+ul li a {
+    font-size: 0.8rem;
+    padding: 0px 6px;
+}
+.allpart img {
+    height: 60px;
+}
+.details label{
+    font-size: 0.8rem;
+}
+.details input {
+    padding: 5px 3px;  
+    font-size: 0.8rem;
+}
+ul{
+    flex-wrap: wrap;
+}
+ul li {
+    margin: 0px 9px;
+}
+.box img{
+    height:96px;
+}
+.box{
+    margin:2px;
+}
+.allpart{
+    display: flex;
+    flex-wrap: wrap;
+}

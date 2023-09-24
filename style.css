@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    position: relative;
+}
+
+.nav::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin: 0px 25px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0px 22px;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 9px;
+}
+#navigation{
+    position: relative;
+    color: white;
+    height: 400px;
+    
+}
+#navigation::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(nav.jpg) no-repeat center center/cover;
+    z-index: -1;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content h1{
+    font-size: 3rem;
+    padding-top: 40px;
+}
+.content p{
+    font-size: 1.5rem;
+    margin:0px 150px;
+    padding-top: 34px;
+}
+.content button{
+    background-color: chartreuse;
+    border-radius: 24px;
+    cursor: pointer;
+    padding:4px 26px;
+    border: none;
+    margin-top: 25px;
+    text-align: center;
+}
+.content button:hover{
+    background-color: white;
+}
+#main h2{
+    text-align: center;
+}
+.service{
+    display: flex;
+    margin: 10px;
+
+}
+.box{
+    border: 3px solid rgb(191, 42, 42);
+    border-radius: 20px;
+    background-color:#f3d4d4;
+    margin: 0px 1px;
+}
+.box img{
+    height: 155px;
+    display: block;
+    margin: auto;
+    padding:10px;
+}
+.box p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin:0px 25px;
+}
+#partner h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.allpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.allpart img{
+    height: 100px;
+}
+#partner{
+    position: relative;
+    color: black;
+}
+#partner::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(people.jpg) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.6;
+}
+.contact{
+    position: relative;
+}
+.contact::before{
+    content: "";
+    height: 100%;
+    position: absolute;
+    width:100%;
+    background:url(ice-cream.jpg) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.7s;
+}
+.details label{
+    font-size: 1.2rem;
+}
+.details input{
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px 22px;
+    border-radius: 25px;
+    border: none;
+}
+.contact{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
